@@ -1,0 +1,50 @@
+{
+    "title": "JsCommuninty",
+    "name": "js-communinty",
+    "version": "5.2.2",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Tunisian JS-Community : We are group of JavaScript enthusiasts in Tunisia We discuss js tips, tricks, hacks and framework each month in Tunisia. We meet to share information, demos, new technologies, ask questions and learn together. We cover client-side and server-side JavaScript innovation in the local tech community.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://js-community.tn/",
+    "bugs": {
+        "url": "https://github.com/tunisian-javascript-community/tunisian-javascript-community.github.io/issues",
+        "email": "contact@js-community.tn"
+    },
+    "license": "MIT",
+    "author": "jscommunity",
+    "contributors": [
+        "Heithem Moumni"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:tunisian-javascript-community/tunisian-javascript-community.github.io.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
