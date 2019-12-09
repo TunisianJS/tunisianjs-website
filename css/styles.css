@@ -1,3 +1,9 @@
+/*!
+ * Start Bootstrap - JS-Communinty v1.0.0 (https://js-community.tn/)
+ * Copyright 2013-2019 Tunisian JS-Communinty
+ * Licensed under MIT (https://github.com/BlackrockDigital/js-communinty/blob/master/LICENSE)
+ */
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -174,9 +180,11 @@ header.masthead {
   color: white;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  margin-top: 80px;
+  padding-bottom: 60px;
 }
 
 header.masthead .intro-text {

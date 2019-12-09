@@ -4,9 +4,12 @@ header.masthead {
   color: white;
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  margin-top: 80px;
+  padding-bottom: 60px;
+  
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
