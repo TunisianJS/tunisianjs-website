@@ -15,11 +15,9 @@
     color: #000000;
     border: 0;
     background-color: $primary;
-    @include heading-font;
   }
   .navbar-brand {
     color: $primary;
-    @include script-font;
     &.active,
     &:active,
     &:focus,
@@ -35,7 +33,6 @@
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: #000000;
-        @include heading-font;
         &.active,
         &:hover {
           color: $primary;
