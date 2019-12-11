@@ -1,7 +1,21 @@
 // Styling for the footer
 .footer {
+  position: relative;
   padding: 25px 0;
   text-align: center;
+
+  &:before {
+    background-image: url(../img/border-beige.svg) !important;
+    background: repeat-x;
+    content: "";
+    height: 16px;
+    height: 1rem;
+    position: absolute;
+    top: calc(-1rem + 1px);
+    width: 100%;
+    left: 0;
+}
+
   span.copyright {
     font-size: 90%;
     line-height: 40px;

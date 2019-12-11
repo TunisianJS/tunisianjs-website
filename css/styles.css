@@ -82,6 +82,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+.text-muted {
+  font-size: 1.3rem;
+}
+
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
@@ -446,16 +450,24 @@ header.masthead .intro-text .intro-heading {
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: white;
+  color: black;
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #212529;
+  background: #fcc733;
+  border: solid 3px #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
-  line-height: 14px;
-  margin-top: 12px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.timeline > li .timeline-image h4.end {
+  text-decoration: line-through;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -516,11 +528,6 @@ header.masthead .intro-text .intro-heading {
     height: 100px;
     margin-left: -50px;
   }
-  .timeline > li .timeline-image h4 {
-    font-size: 13px;
-    line-height: 18px;
-    margin-top: 16px;
-  }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
@@ -540,11 +547,6 @@ header.masthead .intro-text .intro-heading {
     height: 150px;
     margin-left: -75px;
   }
-  .timeline > li .timeline-image h4 {
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 30px;
-  }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
@@ -561,9 +563,6 @@ header.masthead .intro-text .intro-heading {
     width: 170px;
     height: 170px;
     margin-left: -85px;
-  }
-  .timeline > li .timeline-image h4 {
-    margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
@@ -649,8 +648,21 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
+  position: relative;
   padding: 25px 0;
   text-align: center;
+}
+
+.footer:before {
+  background-image: url(../img/border-beige.svg) !important;
+  background: repeat-x;
+  content: "";
+  height: 16px;
+  height: 1rem;
+  position: absolute;
+  top: calc(-1rem + 1px);
+  width: 100%;
+  left: 0;
 }
 
 .footer span.copyright {
