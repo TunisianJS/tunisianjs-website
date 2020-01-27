@@ -82,17 +82,6 @@ img::-moz-selection {
   font-size: 1.3rem;
 }
 
-.js-top {
-  position: fixed;
-  padding: 5px 10px;
-  background: #fbc42f;
-  bottom: 11px;
-  right: 15px;
-  font-weight: bold;
-  cursor: pointer;
-  display: none;
-}
-
 .btn {
   font-weight: 700;
 }
@@ -689,4 +678,15 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #212529;
+}
+
+.js-top {
+  position: fixed;
+  padding: 5px 10px;
+  background: #fbc42f;
+  bottom: 11px;
+  right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
 }

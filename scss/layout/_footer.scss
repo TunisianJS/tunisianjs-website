@@ -53,3 +53,13 @@ ul.social-buttons {
     }
   }
 }
+.js-top{
+  position: fixed;
+  padding: 5px 10px;
+  background: #fbc42f;
+  bottom: 11px;
+  right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
