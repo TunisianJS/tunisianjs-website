@@ -15,6 +15,19 @@
     }
   });
 
+
+$('.js-top').on("click",function(){
+  $('html,body').animate({ scrollTop:  $("html,body").offset().top }, 'slow', function () {});
+});
+
+$(window).scroll(function() {
+  if($(window).scrollTop()  > 700) {
+    $('.js-top').css('display','block')
+  } else {
+    $('.js-top').css('display','none')
+  }
+});
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
@@ -42,3 +55,4 @@
 
 
 })(jQuery);
+

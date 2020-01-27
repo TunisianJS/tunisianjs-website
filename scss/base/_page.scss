@@ -69,3 +69,14 @@ img::-moz-selection {
 .text-muted{
   font-size: 1.3rem;
 }
+
+.js-top{
+    position: fixed;
+    padding: 5px 10px;
+    background: #fbc42f;
+    bottom: 11px;
+    right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}

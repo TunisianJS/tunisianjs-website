@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - JS-Communinty v1.0.0 (https://js-community.tn/)
- * Copyright 2013-2019 Tunisian JS-Communinty
+ * Copyright 2013-2020 Tunisian JS-Communinty
  * Licensed under MIT (https://github.com/BlackrockDigital/js-communinty/blob/master/LICENSE)
  */
 
@@ -80,6 +80,17 @@ img::-moz-selection {
 
 .text-muted {
   font-size: 1.3rem;
+}
+
+.js-top {
+  position: fixed;
+  padding: 5px 10px;
+  background: #fbc42f;
+  bottom: 11px;
+  right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
 }
 
 .btn {
