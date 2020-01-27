@@ -690,3 +690,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   cursor: pointer;
   display: none;
 }
+
+.js-top i {
+  display: block;
+  font-size: 11px;
+}
