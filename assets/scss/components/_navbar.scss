@@ -2,6 +2,24 @@
 #mainNav {
   .logo{
     width: 215px;
+    .a {
+      fill: #171717
+    }
+
+    .c {
+      fill: #545554
+    }
+
+    .d {
+      fill: #fec40e
+    }
+
+    .e {
+      fill: none;
+      stroke: #171717;
+      stroke-miterlimit: 10;
+      stroke-width: 1.35px
+    }
   }
   &.navbar-light {
     background-color: #ffffff;

@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - JS-Communinty v1.0.0 (https://js-community.tn/)
- * Copyright 2013-2020 Tunisian JS-Communinty
+ *JS-Communinty v1.0.0 (https://js-community.tn/)
+ * Copyright 2019-2020 Tunisian JS-Communinty
  * Licensed under MIT (https://github.com/BlackrockDigital/js-communinty/blob/master/LICENSE)
  */
 
@@ -108,6 +108,25 @@ img::-moz-selection {
 
 #mainNav .logo {
   width: 215px;
+}
+
+#mainNav .logo .a {
+  fill: #171717;
+}
+
+#mainNav .logo .c {
+  fill: #545554;
+}
+
+#mainNav .logo .d {
+  fill: #fec40e;
+}
+
+#mainNav .logo .e {
+  fill: none;
+  stroke: #171717;
+  stroke-miterlimit: 10;
+  stroke-width: 1.35px;
 }
 
 #mainNav.navbar-light {
@@ -689,6 +708,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-weight: bold;
   cursor: pointer;
   display: none;
+  border-radius: 20px 20px 0 0;
 }
 
 .js-top i {
