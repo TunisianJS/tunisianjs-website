@@ -21,9 +21,9 @@ const pkg = require("./package.json");
 const banner = [
   "/*!\n",
   " *<%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n",
-  " * Copyright 2019-" + new Date().getFullYear(),
+  " * Copyright 2019 - " + new Date().getFullYear(),
   " <%= pkg.author %>\n",
-  " * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n",
+  " * Licensed under <%= pkg.license %> (https://github.com/TunisianJS/TunisianJS.github.io/blob/master/LICENSE)\n",
   " */\n",
   "\n"
 ].join("");
@@ -145,7 +145,7 @@ function watchFiles() {
   gulp.watch("./src/**/*.html", browserSyncReload);
 }
 
-function minify() {
+function minify () {
   return gulp
     .src("src/*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
@@ -156,8 +156,7 @@ function minify() {
 const vendor = gulp.series(clean, modules);
 const dev = gulp.series(vendor, gulp.parallel(css, js));
 const watch = gulp.series(dev, gulp.parallel(watchFiles, browserSync));
-
-const build = gulp.series(vendor, gulp.parallel(css, js,minify));
+const build = gulp.series(vendor, gulp.parallel(css, js, minify));
 
 // Export tasks
 exports.css = css;
