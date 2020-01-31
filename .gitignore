@@ -8,5 +8,7 @@ ehthumbs.db
 Thumbs.db
 .idea
 
-# ignore npm lock ---> should use yarn ..
+
 package-lock.json
+yarn.lock
+*.log
