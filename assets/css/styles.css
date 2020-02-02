@@ -139,7 +139,7 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: #000000;
+  color: #f8f9fa;
   border: 0;
   background-color: #212529;
 }
