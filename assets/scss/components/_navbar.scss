@@ -1,36 +1,36 @@
 // Styling for the navbar
 #mainNav {
-  .logo{
+  .logo {
     width: 215px;
     .a {
-      fill: #171717
+      fill: #171717;
     }
 
     .c {
-      fill: #545554
+      fill: #545554;
     }
 
     .d {
-      fill: #fec40e
+      fill: #fec40e;
     }
 
     .e {
       fill: none;
       stroke: #171717;
       stroke-miterlimit: 10;
-      stroke-width: 1.35px
+      stroke-width: 1.35px;
     }
   }
   &.navbar-light {
     background-color: #ffffff;
-    box-shadow: 0 20px 10px -15px rgba(0,0,0,.1);
+    box-shadow: 0 20px 10px -15px rgba(0, 0, 0, 0.1);
   }
   .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: #000000;
+    color: #f8f9fa;
     border: 0;
     background-color: $primary;
   }
@@ -59,7 +59,7 @@
     }
   }
 }
-@media(min-width:992px) {
+@media (min-width: 992px) {
   #mainNav {
     padding-top: 15px;
     padding-bottom: 15px;
