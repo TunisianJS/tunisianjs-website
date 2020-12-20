@@ -19,7 +19,6 @@ Tunisian JS-Community : We are group of JavaScript enthusiasts in Tunisia We dis
 
 # Talks at JS-Community
 
-
 Learn about GraphQL, DevOps, Machine Learning, Accessibility, New and upcoming JavaScript features, JavaScript frameworks like React, Vue, and Angular, Node.js, Web performance, and Progressive Web Apps.
 
 [Speakers](http://js-community.tn/#speakers)
