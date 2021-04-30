@@ -1,6 +1,6 @@
 /*!
  *JS-Communinty v1.0.0 (https://js-community.tn/)
- * Copyright 2019 - 2020 Tunisian JS-Communinty
+ * Copyright 2019 - 2021 Tunisian JS-Communinty
  * Licensed under MIT (https://github.com/TunisianJS/TunisianJS.github.io/blob/master/LICENSE)
  */
 
