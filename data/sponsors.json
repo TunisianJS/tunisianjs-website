@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Five Points",
+        "image": "/images/sponsors/five.png",
+        "url": "http://fivepoints.tn"
+    },
+    {
+        "name": "Level 1",
+        "image": "/images/sponsors/level1.png",
+        "url": "http://www.level1hub.com"
+    },
+    {
+        "name": "Pocteo",
+        "image": "/images/sponsors/pocteo.png",
+        "url": "https://pocteo.co"
+    },
+    {
+        "name": "3almadmoon",
+        "image": "/images/sponsors/3almadmoon.svg",
+        "url": "http://3almadmoon.com"
+    },
+    {
+        "name": "Hive 12",
+        "image": "/images/sponsors/hive12.png",
+        "url": "https://hive12-coworking-space.business.site"
+    },
+    {
+        "name": "Lollipop",
+        "image": "/images/sponsors/lollipop.png",
+        "url": "https://www.facebook.com/Lollipop.coworking.space.bizerte"
+    },
+    {
+        "name": "ReBootKamp",
+        "image": "/images/sponsors/re-book-kamp.png",
+        "url": "https://www.rbktunisia.com"
+    }
+]
