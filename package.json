@@ -1,55 +1,51 @@
 {
-    "title": "JS-Communinty",
-    "name": "js-communinty",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch",
-        "build": "node_modules/.bin/gulp build"
+  "name": "tunisian-js-community",
+  "version": "0.1.0",
+  "description": "Tunisian JS-Community Official Site 〽️.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "javascript-tunisian",
+    "js-community",
+    "javascript",
+    "tunisia",
+    "tunis"
+  ],
+  "license": "MIT",
+  "author": "tunjscommunity@gmail.com",
+  "contributors": [
+    {
+      "name": "Imed Jaberi",
+      "email": "imed_jebari@hotmail.fr",
+      "url": "https://www.3imed-jaberi.com/"
     },
-    "description": "Tunisian JS-Community : We are group of JavaScript enthusiasts in Tunisia We discuss js tips, tricks, hacks and framework each month in Tunisia. We meet to share information, demos, new technologies, ask questions and learn together. We cover client-side and server-side JavaScript innovation in the local tech community. ",
-    "keywords": [
-        "javascript-tunisian",
-        "js-community",
-        "javascript-ecosystem",
-        "javascript-frameworks",
-        "javascript-libraries",
-        "tunisia",
-        "tunis"
-    ],
-    "homepage": "https://js-community.tn/",
-    "bugs": {
-        "url": "https://github.com/tunisian-javascript-community/tunisian-javascript-community.github.io/issues",
-        "email": "contact@js-community.tn"
-    },
-    "license": "MIT",
-    "author": "Tunisian JS-Communinty",
-    "contributors": [
-        "Heithem Moumni",
-        "Imed Jaberi"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:tunisian-javascript-community/tunisian-javascript-community.github.io.git"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.10.2",
-        "bootstrap": "4.3.1",
-        "jquery": "3.5.0",
-        "jquery.easing": "^1.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-htmlmin": "^5.0.1",
-        "gulp-minify-html": "^1.0.6",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+    {
+      "name": "Heithem Moumni",
+      "email": "moumniheithem@gmail.com",
+      "url": "https://heithem.wtf/"
     }
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bootstrap": "^5.0.1",
+    "next": "^10.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.13"
+  },
+  "homepage": "https://js-community.tn/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TunisianJS/tunisianjs.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TunisianJS/tunisianjs.github.io/issues",
+    "email": "contact@js-community.tn"
+  }
 }
