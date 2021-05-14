@@ -6,18 +6,17 @@ Tunisian JS-Community : We are group of JavaScript enthusiasts in Tunisia We dis
 
 ---
 
-## [Talks at JS-Community](https://github.com/TunisianJS/talks#format-of-the-talks)
 
-<details>
-<summary><b> Our Signature </b></summary>
-<pre><code>
-   ___                                                      _ _          _
-  |_  |                                                    (_) |        | |
-    | | ___ ______ ___ ___  _ __ ___  _ __ ___  _   _ _ __  _| |_ _   _ | |_ _ __
-    | |/ __|______/ __/ _ \| '_ ` _ \| '_ ` _ \| | | | '_ \| | __| | | || __| '_ \
-/\__/ /\__ \     | (_| (_) | | | | | | | | | | | |_| | | | | | |_| |_| || |_| | | |
-\____/ |___/      \___\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|_|\__|\__, (_)__|_| |_|
-                                                                   __/ |
-                                                                  |___/
-</code></pre>
-</details>
+
+:link: https://www.js-community.tn/
+
+Other places you'll find us:
+
+* [Twitter](https://twitter.com/tunisianjs)
+* [Slack]()
+* [Linkedin](https://www.linkedin.com/company/tunisian-js-community)
+* [Talks at JS-Community](https://github.com/TunisianJS/talks#format-of-the-talks)
+
+
+For the latest info on everything Tunisian JS-Community related (event announcements, news, etc.),
+it's best to follow us on [Twitter (@tunisianjs)](https://twitter.com/tunisianjs).
