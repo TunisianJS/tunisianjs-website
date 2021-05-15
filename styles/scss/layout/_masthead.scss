@@ -1,7 +1,14 @@
 // Styling for the masthead
+
+.masthead {
+  iframe {
+    width: 100%;
+    height: 90vh;
+  }
+}
+
 header.masthead {
   text-align: center;
-  color: red;
   background-image: url("/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
