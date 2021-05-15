@@ -76,7 +76,7 @@ export default function Teams() {
       subtitle='The organizers who put these events together.'
     >
       <Organizers data={founders} />
-      <SectionHeader title='Our Stuff' subtitle='The Stuff who put these events together.' />
+      <SectionHeader title='Our Staff' subtitle='The Staff who put these events together.' />
       <Organizers data={staff} />
       <div className='row'>
         <div className='col-lg-8 mx-auto text-center'>
