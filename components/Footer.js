@@ -1,34 +1,37 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { faHeart, faArrowUp } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faGithub, faSlack, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faSlack, faTwitter, faYoutube, faMeetup } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { getCurrentYear } from '../utils/date.util'
 
+const platforms = [
+  {
+    url: 'https://www.facebook.com/TunisianJS',
+    icon: faFacebook
+  },
+  {
+    url: 'https://twitter.com/TunisianJS',
+    icon: faTwitter
+  },
+  {
+    url: 'https://js-communitytn.slack.com',
+    icon: faSlack
+  },
+  {
+    url: 'https://github.com/TunisianJS',
+    icon: faGithub
+  },
+  {
+    url: 'https://www.youtube.com/channel/UCeWHKEOX998dAebsYhI6gKw',
+    icon: faYoutube
+  },
+  {
+    url: 'https://www.meetup.com/tunisian-js-community/',
+    icon: faMeetup
+  }
+];
 
 export default function Footer() {
-  const [platforms] = useState([
-    {
-      url: 'https://www.facebook.com/TunisianJS',
-      icon: faFacebook
-    },
-    {
-      url: 'https://twitter.com/TunisianJS',
-      icon: faTwitter
-    },
-    {
-      url: 'https://js-communitytn.slack.com',
-      icon: faSlack
-    },
-    {
-      url: 'https://github.com/TunisianJS',
-      icon: faGithub
-    },
-    {
-      url: 'https://www.youtube.com/channel/UCeWHKEOX998dAebsYhI6gKw',
-      icon: faYoutube
-    }
-  ])
-
   return (
     <footer className='bg-light  footer'>
       <div className='container'>
