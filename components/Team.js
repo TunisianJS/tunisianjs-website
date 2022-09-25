@@ -2,9 +2,10 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import founders from '../data/founders.json'
 import staff from '../data/staffs.json'
+// TODO: add all other past collaborators
+import pastCollaborators from '../data/past-collaborators.json'
 import SectionHeader from './SectionHeader'
 import SectionWrapper from './SectionWrapper'
-
 
 function Organizers({ data = [], iconSize = '1x' }) {
   return (
@@ -70,27 +71,34 @@ function Organizers({ data = [], iconSize = '1x' }) {
 
 export default function Teams() {
   return (
+
+
     <SectionWrapper
       pin='team'
       title='Our Amazing Team'
       subtitle='The organizers who put these events together.'
     >
       <Organizers data={founders} />
+      <br /><hr /><br />
       <SectionHeader title='Our Staff' subtitle='The Staff who put these events together.' />
       <Organizers data={staff} />
+      <br /><hr /><br />
+      <SectionHeader title='Past Collaborators' subtitle='The Founders/Organaziers/Staffs who help us to put these events together in the past.' />
+      <Organizers data={pastCollaborators} />
       <div className='row'>
         <div className='col-lg-8 mx-auto text-center'>
           <p className='large text-muted'>
             Need help? In case of any question or suggestion, please contact
             one of the organizers or staff in the event, or reach us by e-mail
-              at <br />
+            at <br />
             <a href='mailto:contact@js-community.tn'>
               contact@js-community.tn
-              </a>
-              .
-            </p>
+            </a>
+            .
+          </p>
         </div>
       </div>
     </SectionWrapper>
+
   )
 }
