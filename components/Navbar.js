@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faMeetup } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -79,7 +80,7 @@ export default function Navbar() {
               <a
                 className="nav-link js-scroll-trigger"
                 rel="noreferrer"
-                href="#"
+                href="/proposals"
               >
                 Your Proposals
               </a>
