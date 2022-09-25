@@ -91,4 +91,16 @@
       }
     }
   }
+
+  .meetup {
+    background: #ffba11;
+    border-radius: 50px;
+    .icon-meetups {
+      padding: 0;
+      margin: 0;
+      vertical-align: top;
+      margin-top: -7px;
+      margin-right: 15px;
+    }
+  }
 }
