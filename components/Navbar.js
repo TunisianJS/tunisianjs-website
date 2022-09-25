@@ -81,7 +81,7 @@ export default function Navbar() {
                 rel="noreferrer"
                 href="#"
               >
-                Apply for A Talk
+                Your Proposals
               </a>
             </li>
 
