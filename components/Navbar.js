@@ -10,7 +10,7 @@ export default function Navbar() {
       id="mainNav"
     >
       <div className="container">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+        <a className="navbar-brand js-scroll-trigger" href="/#page-top">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="logo"
@@ -46,22 +46,22 @@ export default function Navbar() {
         >
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">
+              <a className="nav-link js-scroll-trigger" href="/#about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#events">
+              <a className="nav-link js-scroll-trigger" href="/#events">
                 Events
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#team">
+              <a className="nav-link js-scroll-trigger" href="/#team">
                 Team
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#sponsors">
+              <a className="nav-link js-scroll-trigger" href="/#sponsors">
                 Sponsors
               </a>
             </li>
